@@ -1,0 +1,21 @@
+
+name: Github actions
+
+on:
+ push:
+   branches:
+     ["**"]
+ pull_request:
+    branches: ["**"]
+
+jobs:
+  build-Project:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: building  app
+        run: echo "Application is building!"
+
+
+
+
