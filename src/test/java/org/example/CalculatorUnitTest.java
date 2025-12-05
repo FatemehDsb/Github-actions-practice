@@ -117,12 +117,7 @@ class CalculatorUnitTest {
         assertFalse(result);
     }
 
-//    @Test
-//    public void findMaxValueShouldBeCorrect(){
-//        Calculator calc = new Calculator();
-//        int result = calc.findMaxValue[1, 3, 4];
-//        assertEquals(5, result);
-//    }
+
 
 
 

@@ -11,6 +11,5 @@ public class ServiceUnitTest {
     public void getUserByIdShouldReturnUser(){
         Repository repoMock = mock(Repository.class);
         Service service = new Service(repoMock);
-
     }
 }
